@@ -7,7 +7,7 @@ Instructions for building the image stream within OSE
 3. Login to the Docker registry of OSE (docker login -u `oc whoami` -p `oc whoami -t` https://docker-registry-default.apps.demoaxway.com/)
 4. Push the image to internal registry (docker push docker-registry-default.apps.demoaxway.com/stec/haproxy-lb)
 5. Create the image stream available under oc-files (oc create -f haproxy-lb-is.json)
-6. Add the image stream to the project using the console or cmd-line (use the sample configuration provided in the git url)
+6. Add the image stream to the project using the console or cmd-line (use the sample configuration provided in the git url https://github.com/Axway-Presales/haproxy-lb-example)
 
 
 Reference/Tutorial: https://github.com/VeerMuchandi/building-s2i-image
